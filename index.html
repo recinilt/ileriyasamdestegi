@@ -122,23 +122,18 @@
         
         <div id="home" class="jumbotron bg-dark text-white">
             <div class="container">
-                <div class="col-md-6 px-0">
+                <div class="col-md-6 px-0 mb-4 pb-4">
                     <h1 class="display-4 font-italic">
                         112 ALGORİTMİK UYGULAMA KLAVUZU
                     </h1>
                     <p class="lead my-3 pb-3">
-                        Keyif ve kolaylıklar dilerim...
-                    </p>
-                    <p>
-                        <span id="yetiskin"  style="color: green;">YETİŞKİN UYGULAMA KLAVUZU</span>  
-                        
-                        
-                        
-                        
+                        Keyif ve kolaylıklar dilerim... UYGULAMA KLAVUZLARI:
                     </p>
                     <p>
                         
-                        <span id="cocuk" style="color: gray;">ÇOCUK UYGULAMA KLAVUZU</span>
+                        <span id="yetiskin" class="baslik"  style="color: red;">YETİŞKİN</span>  
+                        
+                        <span id="cocuk" class="baslik" style="color: white;">ÇOCUK</span>
                         
 
                     </p>
@@ -581,8 +576,8 @@ Giydiği elbisesindedir.<br><br>
         function yetiskinle() {
             resim.setAttribute("src", "img/sayfalar/y_page-0001.jpg");
             baslikim.innerHTML = "1- YETİŞKİN UYGULAMA KLAVUZU";
-            yetiskin.setAttribute("style", "color:green;");
-            cocuk.setAttribute("style", "color:gray;");
+            yetiskin.setAttribute("style", "color:red;");
+            cocuk.setAttribute("style", "color:white;");
             //yetiskinkitabi.setAttribute("class", "d-none")
             yetiskinkitabi.removeAttribute("class", "d-none");
             cocukkitabi.removeAttribute("class", "d-none");
@@ -592,8 +587,8 @@ Giydiği elbisesindedir.<br><br>
         function cocukla() {
             resim.setAttribute("src", "img/sayfalar/c_page-0001.jpg");
             baslikim.innerHTML = "1- ÇOCUK UYGULAMA KLAVUZU";
-            cocuk.setAttribute("style", "color:green;");
-            yetiskin.setAttribute("style", "color:gray;");
+            cocuk.setAttribute("style", "color:red;");
+            yetiskin.setAttribute("style", "color:white;");
             cocukkitabi.removeAttribute("class", "d-none");
             yetiskinkitabi.removeAttribute("class", "d-none");
             yetiskinkitabi.setAttribute("class", "d-none");
