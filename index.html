@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="tr"  xmlns:og="http://ogp.me/ns#">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>112 Algoritma</title>
+
+
+    <meta property = "og: type" content = "website" />
+    <meta property = "og: title" content = "112 Algoritma" />
+    <meta property = "og: description" content = "112 ALGORİTMİK UYGULAMA KLAVUZU. Keyif ve kolaylıklar dilerim..." />
+    <meta property = "og: image" content = "img/iconfinder_boot_62118.ico" />
+    <link rel="icon" href="img/iconfinder_boot_62118.ico" type="image/x-icon">
+    <meta property = "og: url" content = "https://www.112algoritma.tk" />
+    <meta property = "og: site_name" content = "112 Algoritma" /> 
+    
+        <!-- Required meta tags -->
+        
+    
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Type" content="text/html; ">
+        <meta http-equiv="Content-Language" content="tr">
+        <meta name="keywords" content="112, algoritma, recep yeni, uygulama klavuzu, yetişkin, çocuk">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Recep YENİ">
+        <!-- <meta http-equiv="refresh" content="500">  -->
+        <!-- <title>merhabalar Patent, Arduino, Subtitle Reader, WebDesign</title> -->
+        <meta name="description" content="112 ALGORİTMİK UYGULAMA KLAVUZU. Keyif ve kolaylıklar dilerim...">
+
+    <!-- Required meta tags -->
+    
+    
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <style>
+        .navbar {
+            opacity: 0.8;
+            border-bottom: 1px solid #fff;
+        }
+
+        .jumbotron {
+            padding-top: 100px;
+            margin-bottom: 10px;
+        }
+
+        #blog-heading, #main-bottom, #urunler-bottom { position: relative; min-height: 100px; background-image: url("img/kale.jfif"); background-attachment: fixed; background-repeat: no-repeat; background-position: 0 -100px; text-align: center; color: white; } 
+
+        #main-bottom81 { position: relative; min-height: 100px; background-image: url("img/tekbasina.jpg"); background-attachment: fixed; background-repeat: repeat; background-position: 0 -100px; text-align: center; color: white; } 
+        
+  
+        .overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); }
+
+       
+ 
+        
+
+        html {
+            scroll-behavior: smooth;
+            }
+            
+        /* Navigation buttons styling */
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            gap: 10px;
+        }
+        
+        .nav-btn {
+            flex: 1;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            background: linear-gradient(to right, rgba(0, 123, 255, 0.8), rgba(0, 86, 179, 0.8));
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+            background: linear-gradient(to right, rgba(0, 86, 179, 0.9), rgba(0, 123, 255, 0.9));
+        }
+        
+        .nav-btn:active {
+            transform: translateY(0);
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .nav-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            background: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(100, 100, 100, 0.5));
+            border-color: #999;
+        }
+        
+        .page-indicator {
+            text-align: center;
+            font-weight: bold;
+            color: #333;
+            padding: 8px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+
+<style>
+    .baslik {
+      margin: 20px auto;
+      padding: 5px;
+      border: solid 2px gray;
+      border-radius: 5px;
+      background-color: aliceblue; 
+      background: linear-gradient(to right, rgba(255, 0, 0, 0.281) 0%,rgba(4, 0, 255, 0.281) 50%, rgba(2, 255, 0, 0.281) 100%); width: fit-content;
+      box-shadow: 5px 5px 15px 5px black;
+      /* transform: scale(1.2) rotate(2deg) translate(7px, 8px) skew(3deg, 4deg); */
+    }
+
+
+ </style>
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-KBZQE2GPXR"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+   
+     gtag('config', 'G-KBZQE2GPXR');
+   </script> -->
+</head>
+
+<body  data-spy="scroll" data-target="#mynavbar" data-offset="200">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="mynavbar">
+        <div class="container">
+            <a href="/" class="navbar-brand"><img src="img/iconfinder_boot_62118.ico" alt="" style="width: 2rem; height:auto;"> 112 ALGORİTMİK UYGULAMA KLAVUZU</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#siirler" class="nav-link">Başlıklar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#iletisim" class="nav-link">İletişim</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <header>
+        
+        <div id="home" class="jumbotron bg-dark text-white">
+            <div class="container">
+                <div class="col-md-6 px-0 mb-4 pb-4">
+                    <h1 class="display-4 font-italic">
+                        112 ALGORİTMİK UYGULAMA KLAVUZU
+                    </h1>
+                    <p class="lead my-3 pb-3">
+                        Keyif ve kolaylıklar dilerim... <br> Uygulama klavuzları:
+                    </p>
+                    <p>
+                        
+                        <span id="yetiskin" class="baslik"  style="color: red;">YETİŞKİN</span>  
+                        
+                        <span id="cocuk" class="baslik" style="color: white;">ÇOCUK</span>
+                        
+
+                    </p>
+                    <!-- <p class="lead mb-0">
+                        <a href="#" class="text-white font-weight-bold">
+                            Continue Reading...
+                        </a>
+                    </p> -->
+
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+
+
+
+
+    
+
+    
+
+
+    
+
+    <section>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" id="siirler">
+                    <div class="card mb-4" id="yetiskinkitabi"> 
+                        <p><button onclick="resimle('y_page-0001')" id="y_page-0001" class="baslik"><a href="#resimsayfalari">1- YETİŞKİN UYGULAMA KLAVUZU</a></button></p>
+                        <p><button onclick="resimle('y_page-0002')" id="y_page-0002" class="baslik"><a href="#resimsayfalari">2- UYARILAR</a></button></p>
+                        <p><button onclick="resimle('y_page-0003')" id="y_page-0003" class="baslik"><a href="#resimsayfalari">3- KISALTMALAR</a></button></p>
+                        <p><button onclick="resimle('y_page-0004')" id="y_page-0004" class="baslik"><a href="#resimsayfalari">4- YETKİ VE SORUMLULUKLAR</a></button></p>
+                        <p><button onclick="resimle('y_page-0005')" id="y_page-0005" class="baslik"><a href="#resimsayfalari">5- SAHA YÖNETİMİ</a></button></p>
+                        <p><button onclick="resimle('y_page-0006')" id="y_page-0006" class="baslik"><a href="#resimsayfalari">6- İLK DEĞERLENDİRME</a></button></p>
+                        <p><button onclick="resimle('y_page-0007')" id="y_page-0007" class="baslik"><a href="#resimsayfalari">7- ÖYKÜ VE MUAYENE</a></button></p>
+                        <p><button onclick="resimle('y_page-0008')" id="y_page-0008" class="baslik"><a href="#resimsayfalari">8- SÜREKLİ DEĞERLENDİRME</a></button></p>
+                        <p><button onclick="resimle('y_page-0009')" id="y_page-0009" class="baslik"><a href="#resimsayfalari">9- KALP DURMASI - İLERİ YAŞAM DESTEĞİ - YETİŞKİN</a></button></p>
+                        <p><button onclick="resimle('y_page-0010')" id="y_page-0010" class="baslik"><a href="#resimsayfalari">10- ASİSTOLİ / NEA</a></button></p>
+                        <p><button onclick="resimle('y_page-0011')" id="y_page-0011" class="baslik"><a href="#resimsayfalari">11- VF / NABIZSIZ VT</a></button></p>
+                        <p><button onclick="resimle('y_page-0012')" id="y_page-0012" class="baslik"><a href="#resimsayfalari">12- BRADİKARDİ (YETİŞKİN)</a></button></p>
+                        <p><button onclick="resimle('y_page-0013')" id="y_page-0013" class="baslik"><a href="#resimsayfalari">13- TAŞİKARDİ (YETİŞKİN)</a></button></p>
+                        <p><button onclick="resimle('y_page-0014')" id="y_page-0014" class="baslik"><a href="#resimsayfalari">14- BİLİNÇ DEĞİŞİKLİKLERİ</a></button></p>
+                        <p><button onclick="resimle('y_page-0015')" id="y_page-0015" class="baslik"><a href="#resimsayfalari">15- ANAFLAKSİ (YETİŞKİN)</a></button></p>
+                        <p><button onclick="resimle('y_page-0016')" id="y_page-0016" class="baslik"><a href="#resimsayfalari">16- YANIK</a></button></p>
+                        <p><button onclick="resimle('y_page-0017')" id="y_page-0017" class="baslik"><a href="#resimsayfalari">17- YANIK DOKUZLAR KURALI</a></button></p>
+                        <p><button onclick="resimle('y_page-0018')" id="y_page-0018" class="baslik"><a href="#resimsayfalari">18- TRAVMA (YETİŞKİN)</a></button></p>
+                        <p><button onclick="resimle('y_page-0019')" id="y_page-0019" class="baslik"><a href="#resimsayfalari">19- GÖGÜS TRAVMASI</a></button></p>
+                        <p><button onclick="resimle('y_page-0020')" id="y_page-0020" class="baslik"><a href="#resimsayfalari">20- KAFA TRAVMASI</a></button></p>
+                        <p><button onclick="resimle('y_page-0021')" id="y_page-0021" class="baslik"><a href="#resimsayfalari">21- KARIN TRAVMASI</a></button></p>
+                        <p><button onclick="resimle('y_page-0022')" id="y_page-0022" class="baslik"><a href="#resimsayfalari">22- EKSTREMİTE TRAVMASI</a></button></p>
+                        <p><button onclick="resimle('y_page-0023')" id="y_page-0023" class="baslik"><a href="#resimsayfalari">23- OMURGA TRAVMASI</a></button></p>
+                        <p><button onclick="resimle('y_page-0024')" id="y_page-0024" class="baslik"><a href="#resimsayfalari">24- GÖZ TRAVMASI</a></button></p>
+                        <p><button onclick="resimle('y_page-0025')" id="y_page-0025" class="baslik"><a href="#resimsayfalari">25- ISIRTMA</a></button></p>
+                        <p><button onclick="resimle('y_page-0026')" id="y_page-0026" class="baslik"><a href="#resimsayfalari">26- ZEHİRLENMELER</a></button></p>
+                        <p><button onclick="resimle('y_page-0027')" id="y_page-0027" class="baslik"><a href="#resimsayfalari">27- ZEHİRLİ MADDE TEMİZLİĞİ</a></button></p>
+                        <p><button onclick="resimle('y_page-0028')" id="y_page-0028" class="baslik"><a href="#resimsayfalari">28- BOĞULMA</a></button></p>
+                        <p><button onclick="resimle('y_page-0029')" id="y_page-0029" class="baslik"><a href="#resimsayfalari">29- ATIŞ VE ASPİRASYON</a></button></p>
+                        <p><button onclick="resimle('y_page-0030')" id="y_page-0030" class="baslik"><a href="#resimsayfalari">30- AKSUT VE GÖĞÜS AĞRISI</a></button></p>
+                        <p><button onclick="resimle('y_page-0031')" id="y_page-0031" class="baslik"><a href="#resimsayfalari">31- KARBONMONOKSİT ZEHİRLENMESİ</a></button></p>
+                        <p><button onclick="resimle('y_page-0032')" id="y_page-0032" class="baslik"><a href="#resimsayfalari">32- HASTA NAKLİ</a></button></p>
+                        <p><button onclick="resimle('y_page-0033')" id="y_page-0033" class="baslik"><a href="#resimsayfalari">33- DOĞUM</a></button></p>
+                        <p><button onclick="resimle('y_page-0034')" id="y_page-0034" class="baslik"><a href="#resimsayfalari">34- YENİDOĞANIN CANLANDIRILMASI</a></button></p>
+                        <p><button onclick="resimle('y_page-0035')" id="y_page-0035" class="baslik"><a href="#resimsayfalari">35- SEDATIF VE ANALJEZİK</a></button></p>
+                        <p><button onclick="resimle('y_page-0036')" id="y_page-0036" class="baslik"><a href="#resimsayfalari">36- OTOMATİK EKSTERNAL DEFİBRİLATÖRLER</a></button></p>
+                        <p><button onclick="resimle('y_page-0037')" id="y_page-0037" class="baslik"><a href="#resimsayfalari">37- İNFÜZYON HİZLANDIRICI KILAVUZU</a></button></p>
+                        <p><button onclick="resimle('y_page-0038')" id="y_page-0038" class="baslik"><a href="#resimsayfalari">38- GLASKOW KOMA SKORU (GKS)</a></button></p>
+                        <p><button onclick="resimle('y_page-0039')" id="y_page-0039" class="baslik"><a href="#resimsayfalari">39- EKRANDA OLACAKLAR</a></button></p>
+                        <p><button onclick="resimle('y_page-0040')" id="y_page-0040" class="baslik"><a href="#resimsayfalari">40- KULLANILACAK İLAÇLAR</a></button></p>
+                        
+                    </div>
+    
+                    
+                    
+                    <div class="card mb-4 d-none" id="cocukkitabi"> 
+                        <p><button onclick="resimle('c_page-0001')" id="c_page-0001" class="baslik"><a href="#resimsayfalari">1- ÇOCUK UYGULAMA KLAVUZU</a></button></p>
+                        <p><button onclick="resimle('c_page-0002')" id="c_page-0002" class="baslik"><a href="#resimsayfalari">2- UYARILAR</a></button></p>
+                        <p><button onclick="resimle('c_page-0003')" id="c_page-0003" class="baslik"><a href="#resimsayfalari">3- KISALTMALAR</a></button></p>
+                        <p><button onclick="resimle('c_page-0004')" id="c_page-0004" class="baslik"><a href="#resimsayfalari">4- GELİŞİMSEL DÖNEMLER</a></button></p>
+                        <p><button onclick="resimle('c_page-0005')" id="c_page-0005" class="baslik"><a href="#resimsayfalari">5- VİTAL BULGULAR VE YAŞ GRUPLARI</a></button></p>
+                        <p><button onclick="resimle('c_page-0006')" id="c_page-0006" class="baslik"><a href="#resimsayfalari">6- İLK DEĞERLENDİRME</a></button></p>
+                        <p><button onclick="resimle('c_page-0007')" id="c_page-0007" class="baslik"><a href="#resimsayfalari">7- ÇOCUKTA HAVA YOLU YÖNETİMİ</a></button></p>
+                        <p><button onclick="resimle('c_page-0008')" id="c_page-0008" class="baslik"><a href="#resimsayfalari">8- SÜREKLİ DEĞERLENDİRME</a></button></p>
+                        <p><button onclick="resimle('c_page-0009')" id="c_page-0009" class="baslik"><a href="#resimsayfalari">9- SAHA YÖNETİMİ</a></button></p>
+                        <p><button onclick="resimle('c_page-0010')" id="c_page-0010" class="baslik"><a href="#resimsayfalari">10- SOLUNUM BAŞARISIZLIĞI</a></button></p>
+                        <p><button onclick="resimle('c_page-0011')" id="c_page-0011" class="baslik"><a href="#resimsayfalari">11- ŞOK</a></button></p>
+                        <p><button onclick="resimle('c_page-0012')" id="c_page-0012" class="baslik"><a href="#resimsayfalari">12- SİVILAR</a></button></p>
+                        <p><button onclick="resimle('c_page-0013')" id="c_page-0013" class="baslik"><a href="#resimsayfalari">13- ANAFİLAKSİ (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0014')" id="c_page-0014" class="baslik"><a href="#resimsayfalari">14- TRAVMA (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0015')" id="c_page-0015" class="baslik"><a href="#resimsayfalari">15- YANIK (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0016')" id="c_page-0016" class="baslik"><a href="#resimsayfalari">16- YANIK DOKUZLAR KURALI (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0017')" id="c_page-0017" class="baslik"><a href="#resimsayfalari">17- TRAVMA AKILMASI (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0018')" id="c_page-0018" class="baslik"><a href="#resimsayfalari">18- KAFA TRAVMASI (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0019')" id="c_page-0019" class="baslik"><a href="#resimsayfalari">19- OMURGA TRAVMASI (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0020')" id="c_page-0020" class="baslik"><a href="#resimsayfalari">20- EKSTREMİTE TRAVMASI (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0021')" id="c_page-0021" class="baslik"><a href="#resimsayfalari">21- GÖĞÜS TRAVMASI (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0022')" id="c_page-0022" class="baslik"><a href="#resimsayfalari">22- KARIN TRAVMASI (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0023')" id="c_page-0023" class="baslik"><a href="#resimsayfalari">23- ISIRTMA (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0024')" id="c_page-0024" class="baslik"><a href="#resimsayfalari">24- ZEHİRLENMELER (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0025')" id="c_page-0025" class="baslik"><a href="#resimsayfalari">25- ZEHİRLİ MADDE TEMİZLİĞİ (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0026')" id="c_page-0026" class="baslik"><a href="#resimsayfalari">26- ATIŞ VE ASPİRASYON (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0027')" id="c_page-0027" class="baslik"><a href="#resimsayfalari">27- GÖĞÜS AĞRISI (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0028')" id="c_page-0028" class="baslik"><a href="#resimsayfalari">28- KARBONMONOKSİT ZEHİRLENMESİ (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0029')" id="c_page-0029" class="baslik"><a href="#resimsayfalari">29- BİLİNÇ DEĞİŞİKLİKLERİ (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0030')" id="c_page-0030" class="baslik"><a href="#resimsayfalari">30- YENİDOĞANDA TRANSİT</a></button></p>
+                        <p><button onclick="resimle('c_page-0031')" id="c_page-0031" class="baslik"><a href="#resimsayfalari">31- TEMEL YAŞAM DESTEĞİ</a></button></p>
+                        <p><button onclick="resimle('c_page-0032')" id="c_page-0032" class="baslik"><a href="#resimsayfalari">32- İLERİ YAŞAM DESTEĞİ</a></button></p>
+                        <p><button onclick="resimle('c_page-0033')" id="c_page-0033" class="baslik"><a href="#resimsayfalari">33- HASTA NAKLİ (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0034')" id="c_page-0034" class="baslik"><a href="#resimsayfalari">34- SEDATİF VE ANALJEZİK (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0035')" id="c_page-0035" class="baslik"><a href="#resimsayfalari">35- OTOMATİK EKSTERNAL DEFİBRİLATÖRLER (ÇOCUK)</a></button></p>
+                        <p><button onclick="resimle('c_page-0036')" id="c_page-0036" class="baslik"><a href="#resimsayfalari">36- DÖŞEMEDE OLACAKLAR</a></button></p>
+                        <p><button onclick="resimle('c_page-0037')" id="c_page-0037" class="baslik"><a href="#resimsayfalari">37- PEDİATRİK GLASKOW KOMA SKORLAMASI (GKS)</a></button></p>
+                        <p><button onclick="resimle('c_page-0038')" id="c_page-0038" class="baslik"><a href="#resimsayfalari">38- KULLANILACAK İLAÇLAR</a></button></p>
+                        
+                    </div>
+    
+                    
+                </div>
+                <div class="col-md-8" id="resimsayfalari">
+                    
+    
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h5 id="baslikim">1- YETİŞKİN UYGULAMA KLAVUZU</h5> <br><span>(Lütfen resmin yüklenmesini bekleyiniz...)</span>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                <!-- <img src="" alt="" id="resim"  width="100%"> -->
+                                <img src="img/sayfalar/y_page-0001.jpg" id="resim" class="card-img-top img-thumbnail" alt="1- YETİŞKİN UYGULAMA KLAVUZU">
+    
+                            </p>
+                            
+                            <!-- Navigation Buttons -->
+                            <div class="nav-buttons">
+                                <button class="nav-btn" id="prevBtn" onclick="previousPage()">◄ ÖNCEKİ</button>
+                                <div class="page-indicator" id="pageIndicator">Sayfa: 1 / 40</div>
+                                <button class="nav-btn" id="nextBtn" onclick="nextPage()">SONRAKİ ►</button>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="main-bottom81">
+        <div class="overlay">
+           
+        </div>
+    </section>
+    
+    
+    
+    
+   
+
+
+
+
+
+
+
+    <section id="iletisim" class="pb-5">
+        <br><br>
+    <div class="container" style="padding-top: 70px;">
+        <div class="row">
+            
+            <!-- <div class="col-md-8">
+                <div class="card-header d-md-none">
+                    <h5>İletişim</h5>
+                </div>
+                
+                <div id="map"  style="height: 400px; width: 100%;"></div>
+            
+            </div> -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header  d-none d-md-block">
+                        <h5>İletişim</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Recep YENİ</p>
+                        <!-- <h5 class="card-title">Adres:</h5>
+                        <p class="card-text">İki̇telli̇ OSB.  Çorapçılar Sanayi̇ Sitesi</p>
+                        <p>C Blok No 8. İki̇telli̇ Başakşehir İstanbul, Türkiye</p>
+                        <br> -->
+                        
+                        <h5 class="card-title">E-posta:</h5>
+                        <p class="card-text"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0371666066737a666d6a437a626b6c6c2d606c6e">[email&#160;protected]</a></p>
+                        <p><a href="img/cocuk112.pdf">Çocuk Uygulama Klavuzu Pdf Kitabı</a></p>
+                        <p><a href="img/yetiskin112.pdf">Yetişkin Uygulama Klavuzu Pdf Kitabı</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <!-- <section id="iletisim" class="py-5 text-dark">
+        <div class="container" style="padding-top: 70px;">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>İletişim</h5>
+                        </div>
+                        <img src="img/adres.png" class="card-img-top thumbnail w-100" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Adres:</h5>
+                            <p class="card-text">İki̇telli̇ OSB.  Çorapçılar Sanayi̇ Sitesi C Blok No 8. İki̇telli̇ Başakşehir İstanbul, Türkiye</p>
+                            <br>
+                            <h5 class="card-title">Telefon:</h5>
+                            <p class="card-text">0532 302 8766</p>
+                        </div>
+    
+                    </div>
+
+                    
+                    
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section> -->
+
+    <footer class="py-5 bg-dark text-white text-center">
+        Copyright EK-2 - HASTANE ÖNCESİ ACİL TIBBİ YARDIM VE BAKIM AKIŞ ŞEMALARI - YETİŞKİN UYGULAMA KILAVUZU 2022
+    </footer>
+
+    <!-- <button onclick="resimle(y1)" id="y1" class="baslik">1- YETİŞKİN UYGULAMA KLAVUZU</button> -->
+    <!-- <img src="yetiskin/y1.jpg" id="resim" class="card-img-top img-thumbnail" alt="1- YETİŞKİN UYGULAMA KLAVUZU" width="100%"> -->
+    
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        const yetiskinkitabi = document.getElementById("yetiskinkitabi");
+        const cocukkitabi = document.getElementById("cocukkitabi");
+        const yetiskin = document.getElementById("yetiskin");
+        const cocuk = document.getElementById("cocuk");
+        var resim = document.querySelector("#resim");
+        var baslikim = document.querySelector("#baslikim");
+        
+        // Yetişkin ve çocuk sayfa listelerini tanımlayalım
+        const yetiskinPages = [
+            'y_page-0001', 'y_page-0002', 'y_page-0003', 'y_page-0004', 'y_page-0005',
+            'y_page-0006', 'y_page-0007', 'y_page-0008', 'y_page-0009', 'y_page-0010',
+            'y_page-0011', 'y_page-0012', 'y_page-0013', 'y_page-0014', 'y_page-0015',
+            'y_page-0016', 'y_page-0017', 'y_page-0018', 'y_page-0019', 'y_page-0020',
+            'y_page-0021', 'y_page-0022', 'y_page-0023', 'y_page-0024', 'y_page-0025',
+            'y_page-0026', 'y_page-0027', 'y_page-0028', 'y_page-0029', 'y_page-0030',
+            'y_page-0031', 'y_page-0032', 'y_page-0033', 'y_page-0034', 'y_page-0035',
+            'y_page-0036', 'y_page-0037', 'y_page-0038', 'y_page-0039', 'y_page-0040'
+        ];
+        
+        const cocukPages = [
+            'c_page-0001', 'c_page-0002', 'c_page-0003', 'c_page-0004', 'c_page-0005',
+            'c_page-0006', 'c_page-0007', 'c_page-0008', 'c_page-0009', 'c_page-0010',
+            'c_page-0011', 'c_page-0012', 'c_page-0013', 'c_page-0014', 'c_page-0015',
+            'c_page-0016', 'c_page-0017', 'c_page-0018', 'c_page-0019', 'c_page-0020',
+            'c_page-0021', 'c_page-0022', 'c_page-0023', 'c_page-0024', 'c_page-0025',
+            'c_page-0026', 'c_page-0027', 'c_page-0028', 'c_page-0029', 'c_page-0030',
+            'c_page-0031', 'c_page-0032', 'c_page-0033', 'c_page-0034', 'c_page-0035',
+            'c_page-0036', 'c_page-0037', 'c_page-0038'
+        ];
+        
+        let currentCategory = 'yetiskin'; // Başlangıçta yetişkin
+        let currentPageIndex = 0; // Başlangıç sayfası indexi
+        
+        function getCurrentPages() {
+            return currentCategory === 'yetiskin' ? yetiskinPages : cocukPages;
+        }
+        
+        function updateNavigationButtons() {
+            const pages = getCurrentPages();
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const pageIndicator = document.getElementById('pageIndicator');
+            
+            // Buton durumlarını güncelle
+            prevBtn.disabled = currentPageIndex === 0;
+            nextBtn.disabled = currentPageIndex === pages.length - 1;
+            
+            // Sayfa göstergesini güncelle
+            pageIndicator.textContent = `Sayfa: ${currentPageIndex + 1} / ${pages.length}`;
+        }
+        
+        function nextPage() {
+            const pages = getCurrentPages();
+            if (currentPageIndex < pages.length - 1) {
+                currentPageIndex++;
+                resimle(pages[currentPageIndex]);
+                // Smooth scroll to image
+                document.getElementById('resimsayfalari').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+        
+        function previousPage() {
+            const pages = getCurrentPages();
+            if (currentPageIndex > 0) {
+                currentPageIndex--;
+                resimle(pages[currentPageIndex]);
+                // Smooth scroll to image
+                document.getElementById('resimsayfalari').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+        
+        function resimle(resimid) {
+            var resmim = "img/sayfalar/" + resimid + ".jpg"
+            resim.setAttribute("src", resmim);
+
+            var altveaciklama = document.querySelector("#" + resimid).innerHTML;
+            resim.setAttribute("alt", altveaciklama);
+            baslikim.innerHTML=altveaciklama;
+            
+            // Mevcut sayfa indexini güncelle
+            const pages = getCurrentPages();
+            currentPageIndex = pages.indexOf(resimid);
+            
+            // Navigasyon butonlarını güncelle
+            updateNavigationButtons();
+            
+            console.log(resmim);
+        };
+        
+        yetiskin.addEventListener('click', () => {
+            yetiskinle();  
+        });
+
+        cocuk.addEventListener('click', () => {
+            cocukla();
+        });
+
+        function yetiskinle() {
+            currentCategory = 'yetiskin';
+            currentPageIndex = 0;
+            resim.setAttribute("src", "img/sayfalar/y_page-0001.jpg");
+            baslikim.innerHTML = "1- YETİŞKİN UYGULAMA KLAVUZU";
+            cocuk.removeAttribute("style", "color:red;");
+            cocuk.removeAttribute("style", "color:white;");
+            yetiskin.removeAttribute("style", "color:red;");
+            yetiskin.removeAttribute("style", "color:white;");
+
+            yetiskin.setAttribute("style", "color:red;");
+            cocuk.setAttribute("style", "color:white;");
+            //yetiskinkitabi.setAttribute("class", "d-none")
+            yetiskinkitabi.removeAttribute("class", "d-none");
+            cocukkitabi.removeAttribute("class", "d-none");
+            cocukkitabi.setAttribute("class", "d-none");
+            
+            // Navigasyon butonlarını güncelle
+            updateNavigationButtons();
+        };
+
+        function cocukla() {
+            currentCategory = 'cocuk';
+            currentPageIndex = 0;
+            resim.setAttribute("src", "img/sayfalar/c_page-0001.jpg");
+            baslikim.innerHTML = "1- ÇOCUK UYGULAMA KLAVUZU";
+            cocuk.removeAttribute("style", "color:red;");
+            cocuk.removeAttribute("style", "color:white;");
+            yetiskin.removeAttribute("style", "color:red;");
+            yetiskin.removeAttribute("style", "color:white;");
+            
+            cocuk.setAttribute("style", "color:red;");
+            yetiskin.setAttribute("style", "color:white;");
+            //cocukkitabi.setAttribute("class", "d-none")
+            cocukkitabi.removeAttribute("class", "d-none");
+            yetiskinkitabi.removeAttribute("class", "d-none");
+            yetiskinkitabi.setAttribute("class", "d-none");
+            
+            // Navigasyon butonlarını güncelle
+            updateNavigationButtons();
+        };
+        
+        // Sayfa ilk yüklendiğinde navigasyon butonlarını güncelle
+        updateNavigationButtons();
+        
+        // Klavye kısayolları ekleyelim (isteğe bağlı)
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowLeft') {
+                previousPage();
+            } else if (event.key === 'ArrowRight') {
+                nextPage();
+            }
+        });
+
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"
+        integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
